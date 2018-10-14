@@ -16,9 +16,16 @@ h1 {
 
 p {
   font-family: 'Mali', cursive;
+  font-style:italic;
 }
 
 h2 {
 padding: 90px;
 border: 1px solid #ab88cc;
+font-weight: lighter;
+font-style: italic;
+border-radius: 25px;
+}
+body {
+  background-image: url("../Images/Backgroundcolor.png");
 }
