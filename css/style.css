@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "nongooglefont";
+  src: url("./fonts/otherfont.ttf");
+}
+
+
+
+
+h1 {
+  font-family: 'nongooglefont';
+}
+
+p {
+  font-family: 'Mali', cursive;
+}
