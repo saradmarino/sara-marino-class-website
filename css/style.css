@@ -5,6 +5,8 @@
 p {
     margin: 100px;
     border: 5px solid #76d2e2;
+    font: italic bold 12px/30px;
+
 }
 
 h1 {
@@ -14,4 +16,9 @@ h1 {
 
 p {
   font-family: 'Mali', cursive;
+}
+
+h2 {
+padding: 90px;
+border: 1px solid #ab88cc;
 }
