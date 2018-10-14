@@ -1,13 +1,15 @@
 @font-face {
-  font-family: "nongooglefont";
-  src: url("./fonts/otherfont.ttf");
+  font-family: 'nongooglefont';
+  src: url("../fonts/otherfont.ttf");
 }
-
-
-
+p {
+    margin: 100px;
+    border: 5px solid #76d2e2;
+}
 
 h1 {
   font-family: 'nongooglefont';
+  color:blue;
 }
 
 p {
