@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+header {
+    background: white;
+    color: black;
+    padding: 20px 15px;
+}
+section {
+  padding: 20px;
+  max-width: 400px;
+}
+
+.top-section {
+  background: lightgray;
+  margin-top: 107px;
+  position: relative;
+}
+
+.middle-section {
+  background: lightblue;
+  position: absolute;
+  z-index: 70;
+}
+
+.bottom-section {
+  background: lightgreen;
+  position: fixed;
+  left: 500px;
+
+  .bottom-section {
+    hover:
+    background-color: yellow;
+  }
+
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.wave {
+  postion: absolute;
+  top: -40px;
+  left: 0px;
+}
+
+.wave {
+  postion: absolute;
+  top: -45px;
+  left: 0px;
+  animation-name: crash;
+  animation-duration: 3s;
+}
+
+.top-section .pen {
+  background: white;
+  width: 120px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  float: left;
+}
+
+.wave {
+  width:100px;
+}
+
+.wave: hover{
+  width: 400px
+}
+
+a:hover {
+    background-color: yellow;
+}
+
+
+@keyframes crash {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+  transform: translateX(200px);
+  }
+}
